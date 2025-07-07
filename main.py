@@ -5,7 +5,7 @@ import asyncio
 @cl.on_chat_start
 async def start():
     await cl.Message(
-        content="👋 Welcome to the multi-Agent system , In web_developer , App_developer $ Marketing ?"
+       content="👋 Welcome to the Multi-Agent System — specializing in Web Development, App Development & Marketing!"
     ).send()
 
 
